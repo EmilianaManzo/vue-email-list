@@ -29,7 +29,7 @@ createApp({
       }
   },
 
-  created(){
+  mounted(){
     this.getApi()
     console.log(this.emails);
   }
